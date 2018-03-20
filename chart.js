@@ -263,7 +263,7 @@ $(document).ready(function() {
         }
 
     }, function(chart){ //on complete function
-                chart.renderer.text('GOES 16 0.5-4.0 A', 1170, 500)
+                chart.renderer.text('GOES 16 0.5-4.0 A', 1070, 400)
                 .attr({
                     rotation: -90
                 })
@@ -272,7 +272,7 @@ $(document).ready(function() {
                     fontSize: '16px'
                 })
                 .add();
-                chart.renderer.text("GOES 16 1.0-8.0 A", 1170, 300)
+                chart.renderer.text("GOES 16 1.0-8.0 A", 1070, 200)
                 .attr({
                     rotation: -90
                 })
