@@ -1,0 +1,13 @@
+.highcharts-plot-band-label{
+  color: 'blue';
+  font-weight: 'bold';
+}
+
+.highcharts-title{
+  font-family: LeagueGothicRegular;
+    font-size: 1.75em;
+    text-transform: uppercase;
+    margin: 0;
+    letter-spacing: normal;
+    font-weight: normal;
+}
