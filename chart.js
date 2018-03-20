@@ -285,8 +285,7 @@ $(document).ready(function() {
 
     function requestData(){
         console.log("refresh le data");
-          $.getJSON("http://web-st-01/services-integration/products/goes/xray-flux-3-day.json", function(data){
-            //$.getJSON("xray.json", function(data){
+          $.getJSON("https://api.myjson.com/bins/adprv", function(data){
             var shortseries = [];
             var longseries = [];
             var time;
